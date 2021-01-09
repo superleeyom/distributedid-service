@@ -23,6 +23,7 @@
         <validation-api.version>2.0.1.Final</validation-api.version>
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <dynamic.datasource>3.3.1</dynamic.datasource>
+        <tinyid.version>0.1.0-SNAPSHOT</tinyid.version>
     </properties>
 
     <dependencies>
@@ -80,6 +81,12 @@
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate-validator.version}</version>
         </dependency>
+        <!-- tinyid -->
+<!--        <dependency>-->
+<!--            <groupId>com.xiaoju.uemc.tinyid</groupId>-->
+<!--            <artifactId>tinyid-client</artifactId>-->
+<!--            <version>${tinyid.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
